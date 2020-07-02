@@ -1,0 +1,11 @@
+union ppt{
+	int a;
+	uint16_t b[2];
+}d1;
+	d1.a = 0x1234; //一般电脑默认是小端默认 d1.b[0] == 0x34 ,d1.b[1] == 0x12，网络传输是大端模式
+
+
+pcap 文件详解
+参考：https://www.cnblogs.com/cs-lcy/p/7462072.html
+      https://blog.csdn.net/buside/article/details/92802959
+
